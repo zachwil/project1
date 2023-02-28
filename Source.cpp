@@ -13,16 +13,16 @@ using namespace std;
 int main()
 {
 	//define variables 
-	double acprice, acamount, actotal;
-	double modprice, modamount, modtotal;
-	double fcprice, fcamount, fctotal;
+	double  acamount, actotal;
+	double  modamount, modtotal;
+	double  fcamount, fctotal;
 	double total;
 
 	//set pricing
 
-	acprice = 85.00;
-	modprice = 57.50;
-	fcprice = 127.75;
+	double acprice = 85.00;
+	double modprice = 57.50;
+	double fcprice = 127.75;
 
 	//output the Types of chairs and their prices
 	cout << setw(18) << "STYLE:" << "\tPRICE:" << endl;
